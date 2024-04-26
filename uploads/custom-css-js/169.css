@@ -1,0 +1,53 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.mainmnu .et_pb_menu__wrap {
+    justify-content: flex-end !important;
+}
+
+.deco {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.logged-in .regist {
+	display:none !important;
+}
+
+.dash {
+	display:none !important;
+}
+
+
+.logged-in .dash {
+	display:block !important;
+}
+
+
+ div#sidebar {
+    display: none;
+}
+
+#main-content .container:before {
+    display:none;
+}
+
+ div#left-area {
+    width:100% !important;
+}
+
+
+
+a.directorist-add-listing-types__single__link {
+    background-color: #76515e !important;
+}
+
+
+
+.directorist-add-listing-types__single__link .directorist-icon-mask:after {
+    width:30px !important;
+    height:30px !important;
+    
+}</style>
+<!-- end Simple Custom CSS and JS -->
